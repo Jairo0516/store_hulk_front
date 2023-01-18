@@ -1,4 +1,5 @@
 describe('<Home />', () => {
+
   it('Flujo Carrito', () => {
     cy.visit('localhost:3000')
     cy.wait(2000)

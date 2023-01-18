@@ -1,4 +1,5 @@
 describe('<Home />', () => {
+
   it('Flujo Agregar Varios Productos y Sumar y Restar Cantidades', () => {
     cy.visit('localhost:3000')
     cy.wait(2000)
